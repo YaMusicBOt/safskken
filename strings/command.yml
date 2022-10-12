@@ -1,113 +1,106 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
+
 # All rights reserved.
 
 
-# Commands in Every Language
+# Commands in Every Language 
 
 # Bot Commands
-PING_COMMAND : ["ping"]
+PING_COMMAND : ["ping", "بينج"]
 START_COMMAND : ["start"]
-HELP_COMMAND : ["help"]
-SETTINGS_COMMAND : ["settings", "setting"]
-RELOAD_COMMAND : ["admincache", "reload"]
+HELP_COMMAND : ["help", "الاوامر"]
+SETTINGS_COMMAND : ["settings", "setting", "اعدادت", "الاعدادات"]
+RELOAD_COMMAND : ["admincache", "reload", "/reload" ,"/admincache"]
 GSTATS_COMMAND : ["gstats"]
-STATS_COMMAND : ["stats"]
-LANGUAGE_COMMAND : ["lang", "language", "langs"]
+STATS_COMMAND : ["stats", "الاحصائيات"]
+LANGUAGE_COMMAND : ["lang", "language", "langs", "لغه", "اللغه","اللغه"]
 
 # Play Commands
-PLAY_COMMAND : ["play","vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
-PLAYMODE_COMMAND : ["playmode"]
-CHANNELPLAY_COMMAND : ["channelplay"]
-STREAM_COMMAND : ["stream", "cstream", "streamforce"]
+PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce", "شغل", "cplay", "فيديو", "ق تشغيل", "/play", "/vplay", "cplay", "cvplay", "/شغل", "/تشغيل", "/ق تشغيل", "/ق شغل", "/فيديو", "تشغيل"]
+PLAYMODE_COMMAND : ["playmode", "/وضع شغل", "وضع شغل", "/playmode"]
+CHANNELPLAY_COMMAND : ["channelplay", "ربط"]
+STREAM_COMMAND : ["stream", "cstream", "streamforce", "لايف", "ق لايف"]
 
 #Playlists Command
-PLAYLIST_COMMAND : ["playlist"]
-DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
+PLAYLIST_COMMAND : ["playlist", "القائمه","/القائمه"]
+DELETEPLAYLIST_COMMAND : ["deleteplaylist", "حذف القائمه"]
 
 
 # Tools
-QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
-SONG_COMMAND : ["song", "video"]
-LYRICS_COMMAND : ["lyrics"]
+QUEUE_COMMAND : ["queue","cqueue", "player","المشغل","/المشغل", "cplayer", "playing", "cplaying"]
+SONG_COMMAND : ["song","تنزيل","تحميل","اغنيه","تشغيل","/تنزيل","/تحميل","/اغنيه","/تشغيل", "video"]
+LYRICS_COMMAND : ["lyrics"," كلمات","/كلمات"]
 
 
 # Admin Commands
 AUTH_COMMAND : ["auth"]
 UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["pause", "cpause"]
-RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["mute", "cmute"]
-UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend"]
-SKIP_COMMAND : ["skip", "cskip"]
+PAUSE_COMMAND : ["pause", "cpause", "وقف", "ق وقف", "/pause", "/cpause", "/وقف", "/ق وقف"]
+RESUME_COMMAND : ["resume", "cresume", "كمل", "ق كمل", "/resume", "/cresume", "استمرار", "استئناف"]
+MUTE_COMMAND : ["mute", "cmute", "كتم", "ق اسكت", "/mute", "/cmute", "/اسكت", "/ق اسكت"]
+UNMUTE_COMMAND : ["unmute", "cunmute", "الغاء كتم", "ق اتكلم", "/unmute", "/cunmute", "/اتكلم", "/ق اتكلم"]
+STOP_COMMAND : ["stop", "end", "cstop", "cend", "ايقاف", "انهاء", "ق ايقاف", "ق انهاء", "/يقاف", "غلق", "/end", "/stop", "/ق ايقاف", "/ق انهاء", "/cend", "/cstop"]
+SKIP_COMMAND : ["skip", "cskip", "تخطي", "ق تخطي", "/skip", "/cskip", "/تخطي", "/ق تخطي"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["restart"]
+RESTART_COMMAND : ["restart","ريستارت"]
 
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo"]
-DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+ADDSUDO_COMMAND : ["addsudo", "ثانوي"]
+DELSUDO_COMMAND : ["delsudo", "تن", "ت_م_ث"]
+SUDOUSERS_COMMAND : ["sudolist", "المطورين"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast"]
+BROADCAST_COMMAND : ["ثث", "اذاعه"]
 
 #Blacklist chat
-BLACKLISTCHAT_COMMAND : ["blacklistchat"]
-WHITELISTCHAT_COMMAND : ["whitelistchat"]
-BLACKLISTEDCHAT_COMMAND : ["blacklistedchat"]
+BLACKLISTCHAT_COMMAND : ["blacklistchat","حظر جروب"]
+WHITELISTCHAT_COMMAND : ["whitelistchat","الغاء حظر جروب"]
+BLACKLISTEDCHAT_COMMAND : ["blacklistedchat","الجروبات المحظوره"]
 
 # Video Calls Command
 VIDEOLIMIT_COMMAND : ["set_video_limit"]
-VIDEOMODE_COMMAND : ["videomode"]
+VIDEOMODE_COMMAND : ["videomode","فيديو مود"]
 
 #Mantenance
-MAINTENANCE_COMMAND : ["maintenance"]
-LOGGER_COMMAND : ["logger"]
+MAINTENANCE_COMMAND : ["maintenance","الصيانه"]
+LOGGER_COMMAND : ["logger","الاحداث"]
 
 #Heroku
-GETLOG_COMMAND : ["get_log"]
-GETVAR_COMMAND : ["get_var"]
-DELVAR_COMMAND : ["del_var"]
-SETVAR_COMMAND : ["set_var"]
-USAGE_COMMAND : ["usage"]
+GETLOG_COMMAND : ["get_log", "اللوج"]
+GETVAR_COMMAND : ["get_var", "ج ف"]
+DELVAR_COMMAND : ["del_var", "ح ف"]
+SETVAR_COMMAND : ["set_var", "ا ف"]
+USAGE_COMMAND : ["usage", "ا س"]
 VARS_COMMAND : ["vars", "config"]
 
 
 #Basic Bot Commands
-UPDATE_COMMAND : ["update"]
-REBOOT_COMMAND : ["reboot"]
+UPDATE_COMMAND : ["update", "ت ح"]
+REBOOT_COMMAND : ["reboot", "تحديث"]
 AUTOEND_COMMAND : ["autoend"]
 
 #Private Bot Mode
-AUTHORIZE_COMMAND : ["authorize"]
-UNAUTHORIZE_COMMAND : ["unauthorize"]
-AUTHORIZED_COMMAND : ["authorized"]
+AUTHORIZE_COMMAND : ["authorize","سماح لجروب"]
+UNAUTHORIZE_COMMAND : ["unauthorize","ازالة جروب"]
+AUTHORIZED_COMMAND : ["authorized","المسموح لهم"]
 
 #Block Users Command
-BLOCK_COMMAND : ["block"]
-UNBLOCK_COMMAND : ["unblock"]
-BLOCKED_COMMAND : ["blockedusers"]
+BLOCK_COMMAND : ["block", "حظر"]
+UNBLOCK_COMMAND : ["unblock", "ا ح ر"]
+BLOCKED_COMMAND : ["blockedusers", "ق ح ر"]
 
 #sPEEDTEST
-SPEEDTEST_COMMAND : ["speedtest"]
+SPEEDTEST_COMMAND : ["speedtest","السرعه"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice"]
-ACTIVEVIDEO_COMMAND : ["activevideo"]
+ACTIVEVC_COMMAND : ["activevoice","الصوتيه"]
+ACTIVEVIDEO_COMMAND : ["activevideo","المرئيه"]
 
 #Gban Commands
-GBAN_COMMAND : ["gban"]
-UNGBAN_COMMAND : ["ungban"]
-GBANNED_COMMAND : ["gbannedusers"]
-DEVELOPER_COMMAND : ["dev"]
+GBAN_COMMAND : ["gban", "حظر عام"]
+UNGBAN_COMMAND : ["ungban", "الغاء حظر عام"]
+GBANNED_COMMAND : ["gbannedusers", "قائمة الحظر"]
